@@ -4,4 +4,8 @@ import java.util.Date;
 
 public class Timer {
     private Date time;
+
+    public Date getTime() {
+        return time;
+    }
 }
