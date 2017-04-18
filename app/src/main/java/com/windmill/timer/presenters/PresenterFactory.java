@@ -1,5 +1,5 @@
 package com.windmill.timer.presenters;
 
-interface PresenterFactory {
+public interface PresenterFactory {
     Presenter newPresenter(Class clazz);
 }
