@@ -3,7 +3,7 @@ package com.windmill.timer.presenters;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import com.windmill.timer.ObjectFactory;
-import com.windmill.timer.model.Timer;
+import com.windmill.timer.models.Timer;
 
 import java.util.Arrays;
 import java.util.Date;

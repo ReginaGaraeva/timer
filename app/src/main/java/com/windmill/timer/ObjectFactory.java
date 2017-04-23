@@ -2,7 +2,7 @@ package com.windmill.timer;
 
 import android.content.Context;
 import android.view.LayoutInflater;
-import com.windmill.timer.model.Timer;
+import com.windmill.timer.models.Timer;
 import com.windmill.timer.presenters.Presenter;
 import com.windmill.timer.presenters.PresenterFactory;
 import com.windmill.timer.presenters.RecyclerViewAdapter;

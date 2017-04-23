@@ -1,4 +1,4 @@
-package com.windmill.timer.model;
+package com.windmill.timer.models;
 
 import java.util.Date;
 

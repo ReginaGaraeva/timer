@@ -5,7 +5,7 @@ import android.widget.TextView;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 import com.windmill.timer.R;
-import com.windmill.timer.model.Timer;
+import com.windmill.timer.models.Timer;
 
 public class TimerPresenter implements Presenter<Timer> {
     @BindView(R.id.timer_time)
@@ -22,7 +22,7 @@ public class TimerPresenter implements Presenter<Timer> {
     @Override
     public void set(Timer timer) {
         this.timer = timer;
-        time.setText(String.valueOf(timer.getTime()));
+        time.setText(String.format("%s:%s:%s", timer.getTime().getHours(), timer.getTime().getMinutes(), timer.getTime().getSeconds()));
     }
 
     @Override
